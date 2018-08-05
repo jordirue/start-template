@@ -8,7 +8,7 @@ https://yarnpkg.com/es-ES/
 **Gulp**
 https://gulpjs.com/
 
-**Postcss++
+**Postcss**
 https://postcss.org/
 
 **Panini**
