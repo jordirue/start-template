@@ -232,3 +232,38 @@ En aquest cas li diem que el text del títol serà el nom del site que abans em 
 {+{ text }+}
 {+{/each}+}
 ```
+_**Si ho copies, elimina el símbol (+)**_
+
+
+
+## Plugins
+
+* gulp-imagemin github.com/sindresorhus/gulp-imagemin
+
+* posthtml-lorem
+* posthtml-bem
+* posthtml-alt-always
+
+* sanitize.css (Reset)
+* gulp-postcss
+* gulp-cssnano
+* gulp-sourcemaps
+
+* precss
+* postcss-scss
+* postcss-preset-env
+* postcss-utilities
+* css-mqpacker
+* postcss-discard-duplicates
+* postcss-uncss
+* postcss-extend
+* lost
+* postcss-pxtorem
+
+* jshint
+* gulp-jshint
+* gulp-uglify
+* gulp-babel
+* babel-preset-env
+* babel-core
+* just-detect-adblock
