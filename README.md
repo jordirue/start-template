@@ -6,13 +6,13 @@ Framework creat amb:
 [https://yarnpkg.com/es-ES/](https://yarnpkg.com/es-ES/)
 
 **Gulp**
-https://gulpjs.com/
+[https://gulpjs.com/](https://gulpjs.com/)
 
 **Postcss**
-https://postcss.org/
+[https://postcss.org/](https://postcss.org/)
 
 **Panini**
-https://foundation.zurb.com/sites/docs/panini.html
+[https://foundation.zurb.com/sites/docs/panini.html](https://foundation.zurb.com/sites/docs/panini.html)
 
 **Instal·lar:**
 ```markdown
@@ -34,7 +34,7 @@ gulp
 La manera de construir els HTMLs és com les nines russes, tenim un tros de codi que conté un tros de codi que a la vegada conte un altre tros, etc.
 
 Per crear el codi HTML, utilitza Panini de Zurb
-Documentació: https://github.com/zurb/panini
+Documentació: [https://github.com/zurb/panini](https://github.com/zurb/panini)
 
 Amb 'doble {' inserim text, sigui del propi html o des de un .yml
 ```html
