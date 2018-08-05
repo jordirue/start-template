@@ -77,3 +77,37 @@ Components html, que units a d'altres, formen part d'un organisme (article, busc
 
 **Atoms**
 Elements bàsics del codi, sols o conjuntament amb altres formen components (boto, títol de secció, ...)
+
+
+
+## Data
+
+Arxius .yml on tindrem text reutilitzable. Per exemple el text dels botons, dels títols, ...
+
+Exemple del nom del site:
+
+1. Tenim un .yml (site.yml) amb el nom del site:
+```markdown
+txt__nomsite:
+  -
+    text: Nom del site
+```
+2. Ara hi afegim aquest text al html:
+```markdown
+{{#each site.txt__nomsite}}
+{{ text }}
+{{/each}}
+```
+
+## Layouts
+```markdown
+
+```
+## Pages
+```markdown
+
+```
+## Partials
+```markdown
+
+```
