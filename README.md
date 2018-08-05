@@ -39,37 +39,29 @@ Amb 'doble { + >' inserim el contingut d'un .html
 Organitzem tots els arxius per construir els htmls de la següent manera:
 
 **Data**
-
 Fragments de text per reutilitzar
 
 **Layouts**
-
-    Plantilles de pàgines html
+Plantilles de pàgines html
 
 **Pages**
-
-    El codi que s'incrusta en el { { body } } dels layouts
+El codi que s'incrusta en el { { body } } dels layouts
 
 **Partials**
-
-    Parts de codi reutilitzables en qualsevol lloc que necessitem 
+Parts de codi reutilitzables en qualsevol lloc que necessitem 
 
 ### Partials
 
 Diferents parts de codi html per construir parts de les pagines
 
 **Blocks**
-
-    El contingut de la pàgina s'estructura en diferents blocs (portada, galeries, ...), aquests estan formats per diferents organismes
+El contingut de la pàgina s'estructura en diferents blocs (portada, galeries, ...), aquests estan formats per diferents organismes
 
 **Organisms**
-
-    Un organisme es un grup de components html que units formen una part (bloc) de la pàgina (sidebar, llistat, ...)
+Un organisme es un grup de components html que units formen una part (bloc) de la pàgina (sidebar, llistat, ...)
 
 **Molecules**
-
-    Components html, que units a d'altres, formen part d'un organisme (article, buscador, ...)
+Components html, que units a d'altres, formen part d'un organisme (article, buscador, ...)
 
 **Atoms**
-
-    Elements bàsics del codi, sols o conjuntament amb altres formen components (boto, títol de secció, ...)
+Elements bàsics del codi, sols o conjuntament amb altres formen components (boto, títol de secció, ...)
