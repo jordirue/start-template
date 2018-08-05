@@ -238,32 +238,32 @@ _**Si ho copies, elimina el símbol (+)**_
 
 ## Plugins
 
-* gulp-imagemin github.com/sindresorhus/gulp-imagemin
+* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin)
 
-* posthtml-lorem
-* posthtml-bem
-* posthtml-alt-always
+* [posthtml-lorem](https://github.com/jonathantneal/posthtml-lorem)
+* [posthtml-bem](https://github.com/rajdee/posthtml-bem)
+* [posthtml-alt-always](https://github.com/ismamz/posthtml-alt-always)
 
-* sanitize.css (Reset)
-* gulp-postcss
-* gulp-cssnano
-* gulp-sourcemaps
+* [sanitize.css (Reset)](https://github.com/csstools/sanitize.css)
+* [gulp-postcss](https://github.com/postcss/gulp-postcss)
+* [gulp-cssnano](https://github.com/ben-eb/gulp-cssnano)
+* [gulp-sourcemaps](https://github.com/gulp-sourcemaps/gulp-sourcemaps)
 
-* precss
-* postcss-scss
-* postcss-preset-env
-* postcss-utilities
-* css-mqpacker
-* postcss-discard-duplicates
-* postcss-uncss
-* postcss-extend
-* lost
-* postcss-pxtorem
+* [precss](https://github.com/jonathantneal/precss)
+* [postcss-scss](https://github.com/postcss/postcss-scss)
+* [postcss-preset-env](https://preset-env.cssdb.org/)
+* [postcss-utilities](https://ismamz.github.io/postcss-utilities/)
+* [css-mqpacker](https://github.com/hail2u/node-css-mqpacker)
+* [postcss-discard-duplicates](https://github.com/ben-eb/postcss-discard-duplicates)
+* [postcss-uncss](https://github.com/uncss/postcss-uncss)
+* [postcss-extend](https://github.com/travco/postcss-extend)
+* [lost](https://github.com/peterramsing/lost)
+* [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem)
 
-* jshint
-* gulp-jshint
-* gulp-uglify
-* gulp-babel
-* babel-preset-env
-* babel-core
-* just-detect-adblock
+* [jshint](http://jshint.com/)
+* [gulp-jshint](https://github.com/spalger/gulp-jshint)
+* [gulp-uglify](https://github.com/terinjokes/gulp-uglify)
+* [gulp-babel](https://github.com/babel/gulp-babel)
+* [babel-preset-env](https://github.com/babel/babel-preset-env)
+* [babel-core](https://github.com/babel/gulp-babel/issues/124)
+* [just-detect-adblock](https://github.com/wmcmurray/just-detect-adblock)
