@@ -59,4 +59,3 @@ Diferents parts de codi html per construir parts de les pagines
     Components html, que units a d'altres, formen part d'un organisme (article, buscador, ...)
 **Atoms**
     Elements bàsics del codi, sols o conjuntament amb altres formen components (boto, títol de secció, ...)
-
