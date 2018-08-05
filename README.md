@@ -3,7 +3,7 @@
 Framework creat amb:
 
 **Yarn**
-[https://yarnpkg.com/es-ES/!](https://yarnpkg.com/es-ES/)
+[https://yarnpkg.com/es-ES/](https://yarnpkg.com/es-ES/)
 
 **Gulp**
 https://gulpjs.com/
