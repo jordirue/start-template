@@ -1,10 +1,18 @@
 ## Aquesta plantilla per iniciar maquetes
 
 Framework creat amb:
-Yarn https://yarnpkg.com/es-ES/
-Gulp https://gulpjs.com/
-Postcss https://postcss.org/
-Panini https://foundation.zurb.com/sites/docs/panini.html
+
+**Yarn**
+https://yarnpkg.com/es-ES/
+
+**Gulp**
+https://gulpjs.com/
+
+**Postcss++
+https://postcss.org/
+
+**Panini**
+https://foundation.zurb.com/sites/docs/panini.html
 
 **Instal·lar:**
 ```markdown
@@ -30,12 +38,12 @@ Documentació: https://github.com/zurb/panini
 
 Amb 'doble {' inserim text, sigui del propi html o des de un .yml
 ```html
-{ { inserim text } }
+{+{ inserim text }+}
 ```
 
 Amb 'doble { + >' inserim el contingut d'un .html
 ```html
-{ {> inserim un .html} }
+{+{> inserim un .html}+}
 ```
 
 ### Organització dels htmls
