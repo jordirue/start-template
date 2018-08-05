@@ -1,4 +1,4 @@
-## Aquesta plantilla per iniciar maquetes
+## Plantilla per iniciar maquetes
 
 Framework creat amb:
 
