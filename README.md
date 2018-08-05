@@ -25,13 +25,13 @@ Per crear el codi HTML, utilitza Panini de Zurb (Panini)
 Documentació: https://foundation.zurb.com/sites/docs/panini.html
 
 Amb 'doble {' inserim text, sigui del propi html o des de un .yml
-```markdown
-{ { inserim text } }
+```html
+{{ inserim text }}
 ```
 
 Amb 'doble { + >' inserim el contingut d'un .html
-```markdown
-{ { > inserim un .html} }
+```html
+{{ > inserim un .html}}
 ```
 
 ### Organització dels htmls
