@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+# Aquest framework
 
-You can use the [editor on GitHub](https://github.com/jordirue/start-template/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Framework creat amb Yarn, Gulp, Postcss i Panini
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+**Instal·lar:**
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+yarn install
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Treballar-hi:**
+```markdown
+gulp dev
+```
 
-### Jekyll Themes
+**Crear la maqueta final:**
+```markdown
+gulp
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jordirue/start-template/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## HTML
 
-### Support or Contact
+La manera de construir els HTMls és com les nines russes, tenim un tros de codi que conté un tros de codi que a la vegada conte un altre tros, etc.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Per crear el codi HTML, utilitza Panini de Zurb (Panini)
+Documentació: https://foundation.zurb.com/sites/docs/panini.html
+
+Amb 'doble {' inserim text, sigui del propi html o des de un .yml
+```markdown
+{{ inserim text }}
+```
+
+Amb 'doble { + >' inserim el contingut d'un .html
+```markdown
+{{> inserim un .html}}
+```
+
+### Organització dels htmls
+
+Organitzem tots els arxius per construir els htmls de la següent manera:
+
+**Data**
+    Fragments de text per reutilitzar
+**Layouts**
+    Plantilles de pàgines html
+**Pages**
+    El codi que s'incrusta en el { { body } } dels layouts
+**Partials**
+    Parts de codi reutilitzables en qualsevol lloc que necessitem 
+
+### Partials
+
+Diferents parts de codi html per construir parts de les pagines
+
+**Blocks**
+    El contingut de la pàgina s'estructura en diferents blocs (portada, galeries, ...), aquests estan formats per diferents organismes
+**Organisms**
+    Un organisme es un grup de components html que units formen una part (bloc) de la pàgina (sidebar, llistat, ...)
+**Molecules**
+    Components html, que units a d'altres, formen part d'un organisme (article, buscador, ...)
+**Atoms**
+    Elements bàsics del codi, sols o conjuntament amb altres formen components (boto, títol de secció, ...)
+
