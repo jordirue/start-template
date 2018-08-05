@@ -40,11 +40,13 @@ Amb 'doble {' inserim text, sigui del propi html o des de un .yml
 ```html
 {+{ inserim text }+}
 ```
+_**Si ho copies, elimina el símbol (+)**_
 
 Amb 'doble { + >' inserim el contingut d'un .html
 ```html
 {+{> inserim un .html}+}
 ```
+_**Si ho copies, elimina el símbol (+)**_
 
 ### Organització dels htmls
 
@@ -94,10 +96,11 @@ txt__nomsite:
 ```
 2. Ara hi afegim aquest text al html:
 ```markdown
-{{#each site.txt__nomsite}}
-{{ text }}
-{{/each}}
+{+{#each site.txt__nomsite}+}
+{+{ text }+}
+{+{/each}+}
 ```
+_**Si ho copies, elimina el símbol (+)**_
 
 ## Layouts
 ```markdown
