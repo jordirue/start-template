@@ -1,6 +1,10 @@
-# Aquest framework
+## Aquesta plantilla per iniciar maquetes
 
-Framework creat amb Yarn, Gulp, Postcss i Panini
+Framework creat amb:
+Yarn https://yarnpkg.com/es-ES/
+Gulp https://gulpjs.com/
+Postcss https://postcss.org/
+Panini https://foundation.zurb.com/sites/docs/panini.html
 
 **Instal·lar:**
 ```markdown
@@ -19,19 +23,19 @@ gulp
 
 ## HTML
 
-La manera de construir els HTMls és com les nines russes, tenim un tros de codi que conté un tros de codi que a la vegada conte un altre tros, etc.
+La manera de construir els HTMLs és com les nines russes, tenim un tros de codi que conté un tros de codi que a la vegada conte un altre tros, etc.
 
-Per crear el codi HTML, utilitza Panini de Zurb (Panini)
-Documentació: https://foundation.zurb.com/sites/docs/panini.html
+Per crear el codi HTML, utilitza Panini de Zurb
+Documentació: https://github.com/zurb/panini
 
 Amb 'doble {' inserim text, sigui del propi html o des de un .yml
 ```html
-{{ inserim text }}
+{ { inserim text } }
 ```
 
 Amb 'doble { + >' inserim el contingut d'un .html
 ```html
-{{> inserim un .html}}
+{ {> inserim un .html} }
 ```
 
 ### Organització dels htmls
