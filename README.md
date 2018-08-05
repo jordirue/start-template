@@ -31,7 +31,7 @@ Amb 'doble {' inserim text, sigui del propi html o des de un .yml
 
 Amb 'doble { + >' inserim el contingut d'un .html
 ```html
-{{ > inserim un .html}}
+{{> inserim un .html}}
 ```
 
 ### Organització dels htmls
