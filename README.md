@@ -1,6 +1,6 @@
 ## Plantilla per iniciar maquetes
 
-Framework creat amb:
+Creat amb:
 
 **Yarn**
 [https://yarnpkg.com/es-ES/](https://yarnpkg.com/es-ES/)
