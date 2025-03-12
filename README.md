@@ -160,79 +160,30 @@ _Al principi indiquem quin Layout volem utilitzar, el nom que sortirà en title 
 Després afegim l'estructura del html i afegim els HTMLs que tindrà la pàgina (Es carrega dins del {body} del layout)_
 
 ## Partials
-```html
-<!-- block-1 -->
-{+{> sitename}+}
-{+{> content }+}
-```
-```html
-<!-- block-2 -->
-{+{> aside-title}+}
-{+{> aside-content }+}
-```
-_**Si ho copies, elimina el símbol (+)**_
 
 ### Blocks
 
 Anomenem cada block en relacio a la pàgina on es pinta (Ex: block-home-01.html)
 
 En un block afegim els components que formaran aquest
-```htnl
-<!-- Block 'block-1' -->
-{+{> sitename}+}
-{+{> content }+}
-```
-_**Si ho copies, elimina el símbol (+)**_
 
 ### Organisms
 
 Nom en relació al que conte (Ex: or__3columnes.html)
 
 Organitzem la forma en què es veuran els elements (Per exemple en columnes)
-```htnl
-<!-- Block 'block-1' / Component 'content' -->
-<div class="row">
-  <div class="col">
-    {+{> molecule-1 }+}
-  </div>
-  <div class="col">
-    {+{> molecule-2 }+}
-  </div>
-  <div class="col">
-    {+{> molecule-3 }+}
-  </div>
-</div>
-```
-_**Si ho copies, elimina el símbol (+)**_
 
 ### Molecules
 
 Nom descriptiu component (Ex: mo__article.html)
 
 Sovint el reutilitzem, per això és important utilitzar els .yml del directori 'data' per modificar-lo 
-```htnl
-<!-- Block 'block-1' / Component 'content' / Molecule 'molecule-1' -->
-{+{> atom-1 }+}
-{+{> atom-2 }+}
-<div class="col">
-  {+{> atom-3 }+}
-</div>
-
-```
-_**Si ho copies, elimina el símbol (+)**_
 
 ### Atoms
 
 Nom descriptiu del l'element (Ex: at__titol.html)
 
 En aquest cas li diem que el text del títol serà el nom del site que abans em posat al .yml
-```htnl
-<!-- Block 'block-1' / Component 'content' / Molecule 'molecule-1' / Atom 'atom-1' -->
-{+{#each site.txt__nomsite}+}
-{+{ text }+}
-{+{/each}+}
-```
-_**Si ho copies, elimina el símbol (+)**_
 
 
 
