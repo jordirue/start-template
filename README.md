@@ -81,19 +81,8 @@ Arxius .yml on tindrem text reutilitzable. Per exemple el text dels botons, dels
 
 Exemple del nom del site:
 
-1. Tenim un .yml (site.yml) amb el nom del site:
-```markdown
-txt__nomsite:
-  -
-    text: Nom del site
-```
+1. Tenim un .yml (site.yml) amb el nom del site
 2. Ara hi afegim aquest text al html:
-```markdown
-{+{#each site.txt__nomsite}+}
-{+{ text }+}
-{+{/each}+}
-```
-_**Si ho copies, elimina el símbol (+)**_
 
 ## Layouts
 
