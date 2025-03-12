@@ -99,28 +99,6 @@ _**Si ho copies, elimina el símbol (+)**_
 
 Plantilles html per organitzar el contingut segons ens convingui
 
-```html
-<!doctype html>
-<html class="no-js" lang="ca">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>start-template | Project Initial template</title>
-    <meta name="robots" content="noindex">
-    <link rel="stylesheet" href="{+{root}+}assets/css/main.css">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-</head>
-<body class="{+{ body }+}">
-  {+{> header }+}
-  {+{> body}+}
-  {+{> footer }+}
-<script src="{+{root}+}assets/js/main.js"></script>
-</body>
-</html>
-```
-_**Si ho copies, elimina el símbol (+)**_
-
 _Layout modificat:
 
 En aquest cas, hi hem afegit un header i un footer.
@@ -130,22 +108,6 @@ També, en el body, afegim una class que indicarem dintre de les pàgines_
 ## Pages
 
 Posem un nom descriptiu del contingut (Ex: home.html)
-
-```html
----
-layout: default
-pagename: Default page
-body: class
----
-
-<main>
-  {+{> block-1}+}
-</main>
-<aside>
-  {+{> block-2}+}
-</aside>
-```
-_**Si ho copies, elimina el símbol (+)**_
 
 _Al principi indiquem quin Layout volem utilitzar, el nom que sortirà en title i la class que afegim al body (Així modifiquem alguns aspectes del layout)
 
