@@ -36,9 +36,9 @@ La manera de construir els HTMLs és com les nines russes, tenim un tros de codi
 Per crear el codi HTML, utilitza Panini de Zurb
 Documentació: [https://github.com/zurb/panini](https://github.com/zurb/panini)
 
-Amb 'doble {' inserim text, sigui del propi html o des de un .yml
+Amb '{{' inserim text, sigui del propi html o des de un .yml
 
-Amb 'doble { + >' inserim el contingut d'un .html
+Amb '{{>' inserim el contingut d'un .html
 
 ### Organització dels htmls
 
@@ -82,7 +82,7 @@ Arxius .yml on tindrem text reutilitzable. Per exemple el text dels botons, dels
 Exemple del nom del site:
 
 1. Tenim un .yml (site.yml) amb el nom del site
-2. Ara hi afegim aquest text al html:
+2. Ara hi afegim aquest text al html
 
 ## Layouts
 
