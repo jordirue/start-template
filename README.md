@@ -37,16 +37,8 @@ Per crear el codi HTML, utilitza Panini de Zurb
 Documentació: [https://github.com/zurb/panini](https://github.com/zurb/panini)
 
 Amb 'doble {' inserim text, sigui del propi html o des de un .yml
-```html
-{+{ inserim text }+}
-```
-_**Si ho copies, elimina el símbol (+)**_
 
 Amb 'doble { + >' inserim el contingut d'un .html
-```html
-{+{> inserim un .html}+}
-```
-_**Si ho copies, elimina el símbol (+)**_
 
 ### Organització dels htmls
 
